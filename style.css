@@ -607,6 +607,29 @@ p {
   /* Optional for spacing */
 }
 
+.grid-container-2-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  /* Adjust as needed */
+  padding: 16px;
+  /* Optional for spacing */
+}
+
+
+@media (max-width:768px) {
+
+  /* Adjust breakpoint as necessary */
+  .grid-container-2-cols {
+    grid-template-columns: 1fr;
+    /* Collapse to a single column */
+  }
+}
+
+.full-row {
+  grid-column: 1 / -1;
+}
+
 .small,
 small {
   font-size: 90%
