@@ -626,6 +626,25 @@ p {
   }
 }
 
+.table-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.header {
+  font-weight: bold;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 8px;
+}
+
+.cell {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
 .full-row {
   grid-column: 1 / -1;
 }
