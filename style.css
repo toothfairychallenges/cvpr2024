@@ -631,6 +631,8 @@ p {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   overflow-x: auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
