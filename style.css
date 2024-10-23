@@ -628,7 +628,7 @@ p {
 
 .table-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 0.5fr 1.2fr 0.8fr;;
   gap: 10px;
   overflow-x: auto;
   max-width: 1200px;
@@ -645,6 +645,15 @@ p {
 .cell {
   padding: 8px;
   border-bottom: 1px solid #ddd;
+}
+
+@media (max-width:768px) {
+
+  /* Adjust breakpoint as necessary */
+  .table-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Collapse to a single column */
+  }
 }
 
 .full-row {
@@ -1054,6 +1063,7 @@ pre code {
   display: flex;
   flex-direction: row;
   align-items: center;
+  min-width: 200px;
 }
 
 .row:after,
@@ -4082,7 +4092,7 @@ tbody.collapse.in {
   overflow-y: auto
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4125,7 +4135,7 @@ tbody.collapse.in {
   margin-left: -15px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
   .container-fluid>.navbar-collapse,
   .container-fluid>.navbar-header,
   .container>.navbar-collapse,
@@ -4224,7 +4234,7 @@ tbody.collapse.in {
   margin-top: 4px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
   .navbar-toggle {
     display: none
   }
