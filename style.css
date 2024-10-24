@@ -1058,12 +1058,16 @@ pre code {
 }
 
 .row {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin: auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
   min-width: 200px;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .row:after,
