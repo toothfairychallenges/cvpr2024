@@ -4250,7 +4250,7 @@ tbody.collapse.in {
   line-height: 19px
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4273,7 +4273,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
   .navbar-nav {
     float: left;
     margin: 0
@@ -4494,7 +4494,7 @@ tbody.collapse.in {
   color: #555
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #000
   }
@@ -4602,7 +4602,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
   color: #fff
 }
 
-@media (max-width:767px) {
+@media (max-width:1200px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
     border-color: transparent
   }
@@ -5894,7 +5894,7 @@ textarea {
   padding: 20px
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
   .navbar-default .navbar-collapse,
   .navbar-inverse .navbar-collapse {
     margin: 0;
