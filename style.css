@@ -4241,7 +4241,7 @@ tbody.collapse.in {
   margin-top: 4px
 }
 
-@media (min-width:1200px) {
+@media (min-width:768px) {
   .navbar-toggle {
     display: none
   }
@@ -4257,7 +4257,7 @@ tbody.collapse.in {
   line-height: 19px
 }
 
-@media (max-width:1200px) {
+@media (max-width:767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -4280,7 +4280,7 @@ tbody.collapse.in {
   }
 }
 
-@media (min-width:1200px) {
+@media (min-width:767px) {
   .navbar-nav {
     float: left;
     margin: 0
@@ -4609,7 +4609,7 @@ fieldset[disabled] .navbar-default .btn-link:hover {
   color: #fff
 }
 
-@media (max-width:1200px) {
+@media (max-width:767px) {
   .navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
     border-color: transparent
   }
@@ -5884,7 +5884,7 @@ textarea {
   min-height: inherit
 }
 
-@media (min-width:768px) {
+@media (min-width:767px) {
   .navbar {
     margin: 10px
   }
@@ -5901,7 +5901,7 @@ textarea {
   padding: 20px
 }
 
-@media (min-width:1200px) {
+@media (min-width:768px) {
   .navbar-default .navbar-collapse,
   .navbar-inverse .navbar-collapse {
     margin: 0;
