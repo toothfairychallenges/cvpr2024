@@ -154,7 +154,7 @@ sub {
 }
 
 img {
-  border: 0
+  border: 0;
 }
 
 svg:not(:root) {
@@ -609,11 +609,13 @@ p {
 
 .grid-container-2-cols {
   display: grid;
+  margin: auto;
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   /* Adjust as needed */
   padding: 16px;
   /* Optional for spacing */
+  max-width: 1200px;
 }
 
 
@@ -1058,10 +1060,11 @@ pre code {
 }
 
 .row {
-  margin: auto;
+
   display: flex;
   align-items: center;
   min-width: 200px;
+  justify-content: space-between;
 }
 
 .centered {
