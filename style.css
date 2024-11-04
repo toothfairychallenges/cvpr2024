@@ -4099,7 +4099,7 @@ tbody.collapse.in {
   overflow-y: auto
 }
 
-@media (min-width:1200px) {
+@media (min-width:768px) {
   .navbar-collapse {
     width: auto;
     border-top: 0;
@@ -4142,7 +4142,7 @@ tbody.collapse.in {
   margin-left: -15px
 }
 
-@media (min-width:1200px) {
+@media (min-width:768px) {
   .container-fluid>.navbar-collapse,
   .container-fluid>.navbar-header,
   .container>.navbar-collapse,
@@ -4501,7 +4501,7 @@ tbody.collapse.in {
   color: #555
 }
 
-@media (max-width:1200px) {
+@media (max-width:768px) {
   .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #000
   }
